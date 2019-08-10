@@ -8,6 +8,7 @@ import java.util.Map;
 @Data
 public class MetricSetting {
     private QueryType queryType;
+    private String database;
     private String collection;
     private List<Map<String, Object>> query;
     private Map<String, Object> projection;
